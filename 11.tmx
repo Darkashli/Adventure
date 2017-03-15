@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="14" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="ArtistInfo" tilewidth="32" tileheight="32" tilecount="961" columns="31">
+  <image source="../jungle/ArtistInfo.png" width="1000" height="1000"/>
+ </tileset>
+ <tileset firstgid="962" name="Castle2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="../jungle/Castle2.png" width="512" height="512"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="14" height="10">
+  <data encoding="csv">
+448,1081,448,1082,448,1081,448,1082,448,1081,448,1082,448,1081,
+448,1097,448,1098,448,1097,448,1098,448,1097,448,1098,448,1097,
+448,1113,448,1114,448,1113,448,1114,448,1113,448,1114,448,1113,
+448,448,448,448,448,448,448,448,448,448,448,448,448,448,
+448,448,448,448,448,448,448,448,448,448,448,1077,1078,448,
+448,448,448,448,448,448,448,448,448,448,448,1093,1094,448,
+448,448,448,448,448,448,448,448,448,448,448,448,448,448,
+1082,448,1081,448,1082,448,1081,448,1082,448,1081,448,1082,448,
+1098,448,1097,448,1098,448,1097,448,1098,448,1097,448,1098,448,
+1114,448,1113,448,1114,448,1113,448,1114,448,1113,448,1114,448
+</data>
+ </layer>
+</map>

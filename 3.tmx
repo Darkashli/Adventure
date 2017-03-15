@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="14" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Castle2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="adventure-pics/Castle2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="sand_stone" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="adventure-pics/Stk textures/sand_stone.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="321" name="jungle_stone" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="adventure-pics/Stk textures/jungle_stone.png" width="256" height="256"/>
+ </tileset>
+ <tileset firstgid="385" name="wood" tilewidth="32" tileheight="32" tilecount="64" columns="8">
+  <image source="adventure-pics/Stk textures/wood.png" width="256" height="256"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="14" height="10">
+  <data encoding="csv">
+14,15,15,15,15,15,15,15,15,15,15,15,15,16,
+47,47,47,47,47,47,47,47,47,47,47,47,47,47,
+197,197,197,159,160,197,197,197,197,159,160,197,197,197,
+197,197,197,175,176,197,197,197,197,175,176,197,197,197,
+168,168,168,168,168,168,168,168,168,168,168,168,168,168,
+184,184,184,184,184,184,184,184,184,184,184,184,184,184,
+184,184,184,184,184,184,184,184,184,184,184,184,184,184,
+193,209,210,211,193,193,212,213,214,193,193,209,210,211,
+193,225,226,227,193,193,228,229,230,193,193,225,226,227,
+193,241,242,243,193,193,244,245,246,193,193,241,242,243
+</data>
+ </layer>
+</map>

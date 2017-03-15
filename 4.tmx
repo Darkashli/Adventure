@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="14" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="ArtistInfo" tilewidth="32" tileheight="32" tilecount="961" columns="31">
+  <image source="adventure-pics/ArtistInfo.png" width="1000" height="1000"/>
+ </tileset>
+ <tileset firstgid="962" name="Castle2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="adventure-pics/Castle2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1218" name="jungle-tree" tilewidth="32" tileheight="32" tilecount="4" columns="2">
+  <image source="adventure-pics/jungle-tree.png" width="64" height="64"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="14" height="10">
+  <data encoding="csv">
+975,976,976,976,976,976,976,976,976,976,976,976,976,977,
+1007,1008,1008,1008,1008,1008,1008,1008,1008,1008,1008,1008,1022,993,
+1158,1158,1158,1158,1158,1158,1158,1158,1158,1158,1158,1158,991,993,
+1158,1158,1158,1158,1158,1158,1158,1158,1158,1158,1158,1158,991,993,
+1129,1129,1129,1129,1129,1129,1129,1129,1129,1130,1158,1158,991,993,
+439,439,439,439,439,439,439,439,439,1146,1158,1158,991,993,
+1161,1161,1161,1161,1161,1161,1161,439,439,1146,1158,1158,991,993,
+1138,1138,1138,1138,1138,1138,1138,1144,439,1146,1158,1158,991,993,
+1218,1219,1218,1219,1218,1219,1138,1144,439,1146,1158,1158,991,993,
+1220,1221,1220,1221,1220,1221,1138,1144,439,1146,1158,1158,1007,1009
+</data>
+ </layer>
+</map>

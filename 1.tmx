@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="14" height="10" tilewidth="32" tileheight="32" nextobjectid="1">
+ <tileset firstgid="1" name="Castle2" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="adventure-pics/Castle2.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="257" name="ArtistInfo" tilewidth="32" tileheight="32" tilecount="961" columns="31">
+  <image source="adventure-pics/ArtistInfo.png" width="1000" height="1000"/>
+ </tileset>
+ <tileset firstgid="1218" name="Castle" tilewidth="32" tileheight="32" tilecount="256" columns="16">
+  <image source="adventure-pics/Castle.png" width="512" height="512"/>
+ </tileset>
+ <tileset firstgid="1474" name="spritelist" tilewidth="32" tileheight="32" tilecount="325" columns="25">
+  <image source="../../Downloads/spritelist.png" width="804" height="417"/>
+ </tileset>
+ <layer name="Tile Layer 1" width="14" height="10">
+  <data encoding="csv">
+33,33,33,33,33,37,37,37,37,33,33,33,33,33,
+351,50,50,50,1267,1267,1267,1267,1267,1267,50,50,50,50,
+66,66,65,1282,1282,1282,1282,1282,1282,1282,1282,66,66,66,
+66,66,65,65,1282,65,382,382,65,1282,66,1282,66,66,
+66,66,66,65,1282,65,0,66,66,66,66,66,66,66,
+195,195,195,705,705,704,704,704,705,705,705,195,195,177,
+195,195,195,705,705,1529,1608,0,705,704,705,195,195,177,
+195,195,195,705,705,1529,704,0,223,705,705,195,195,177,
+195,195,195,705,705,704,701,0,223,705,705,195,195,177,
+195,195,195,705,705,704,707,707,0,705,705,195,195,177
+</data>
+ </layer>
+ <layer name="Tile Layer 2" width="14" height="10">
+  <data encoding="csv">
+38,0,0,0,0,0,0,0,0,0,0,0,0,38,
+49,0,0,0,0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,66,66,0,0,0,0,0,0,
+0,0,0,0,0,487,488,489,66,0,0,0,0,0,
+0,0,0,0,0,518,519,520,191,0,0,0,0,0,
+0,0,0,0,0,704,704,704,207,704,0,0,0,0,
+0,0,0,0,0,704,704,704,223,0,0,0,0,0,
+0,0,0,0,0,705,704,704,704,0,0,0,0,0,
+0,0,0,0,0,704,704,704,704,0,0,0,0,0,
+0,0,0,0,0,704,707,704,704,0,0,0,0,0
+</data>
+ </layer>
+</map>
